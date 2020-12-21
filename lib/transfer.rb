@@ -24,6 +24,7 @@ class Transfer
     elsif sender.balance < @amount 
       @status = "rejected"
     end
+  end
   
   def reverse_transfer
     if @status == "complete"

@@ -9,7 +9,7 @@ class Transfer
   end
   
   def valid?
-    if BankAccount
+    if BankAccount.status == "open" && BankAccount.balance 
   
   
 end

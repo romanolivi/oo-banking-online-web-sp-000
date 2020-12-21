@@ -16,4 +16,7 @@ class BankAccount
     "Your balance is $#{@balance}."
   end
   
+  def valid?(status)
+    if @stat
+  
 end

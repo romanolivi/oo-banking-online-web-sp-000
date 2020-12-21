@@ -8,7 +8,7 @@ class Transfer
     @amount = amount
   end
   
-  def valid?
+  def both_valid?
     if BankAccount.valid?
       true 
     end

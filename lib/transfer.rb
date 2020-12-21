@@ -9,7 +9,7 @@ class Transfer
   end
   
   def valid?
-    if 
+    if BankAccount
   
   
 end

@@ -1,4 +1,4 @@
 class BankAccount
-  attr_accessor :name, :account
+  attr_accessor :name, :
   
 end
